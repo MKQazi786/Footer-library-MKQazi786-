@@ -1,0 +1,23 @@
+footer {
+    min-width: 320px;
+    background-color: #eaeaea;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: -1px 2px 25px black;
+    text-shadow: 1px 0px 1px black;
+    font-weight:bolder ;
+    margin-top: auto;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.7rem;
+    margin: 0.2rem;
+    font-size: 1.6rem;
+}
+
+.icon a {
+    color: black;
+}
