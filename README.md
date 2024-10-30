@@ -23,7 +23,7 @@
 &lt;script&gt;
   loadFooter({
     copyrightText: "Enter Your Field Like (Web and App Developer)",
-    developerName: "Your Name Here",  <!-- Example name -->
+    developerName: "Your Name Here Like (Muhammad Khubaib)",  <!-- Example name -->
     links: [
       { url: 'https://www.github.com/MKQazi786', icon: 'github' },
       { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
