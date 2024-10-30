@@ -29,7 +29,7 @@ loadFooter({
         { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
         {url: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', icon: 'twitter-x'}
     ],
-    textColor: '#ffffff',         // User-defined text color
-    iconColor: '#cccccc',         // User-defined icon color
+    textColor: '#ffffff',         
+    iconColor: '#cccccc',         
     backgroundColor: '#333333'
 })
