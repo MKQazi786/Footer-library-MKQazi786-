@@ -27,7 +27,10 @@ loadFooter({
         { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
         { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
         { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
-        {url: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', icon: 'twitter-x'}
+        { url: 'https://x.com/MKQazi786', icon: 'twitter-x'},
+        
+          
+        
     ],
     textColor: '#ffffff',         
     iconColor: '#cccccc',         
