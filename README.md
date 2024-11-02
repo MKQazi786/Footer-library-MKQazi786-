@@ -16,22 +16,20 @@
 
 <h3>2. unpkg:</h3>
 <pre><code>&lt;script src="https://unpkg.com/footer-library-mkqazi786-/footer.js"&gt;&lt;/script&gt;</code></pre>
-<p>Or you can install it via npm:</p>
-<pre><code>npm install footer-library-mkqazi786</code></pre>
 
 <h2>NPM Usage</h2>
+<p>Or you can install it via npm:</p>
+<pre><code>npm install footer-library-mkqazi786</code></pre>
 <p>After installing via npm, import the library in your JavaScript file:</p>
 <pre><code>import { loadFooter } from 'footer-library-mkqazi786';</code></pre>
 
-<h3>3. npm:</h3>
-<pre><code>npm install footer-library-mkqazi786-</code></pre>
-
 <h2>Usage</h2>
+<h3>For CDN and unpkg</h3>
 <p>Add a <code>&lt;footer&gt;</code> element in your HTML where the footer should appear:</p>
 <pre><code>&lt;footer id="footer"&gt;&lt;/footer&gt;</code></pre>
 
-<h3>For CDN and unpkg</h3>
 <pre><code>
+&lt;script&gt;
 loadFooter({
         copyrightText: "Enter Your Field Like (Web and App Developer)",
         developerName: "Your Name Here Like (Muhammad Khubaib)",  
@@ -41,22 +39,7 @@ loadFooter({
           { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
           { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
           { url: 'https://x.com/MKQazi786', icon: 'twitter-x' },
-&lt;script&gt;
-    loadFooter({
-        copyrightText: "Enter Your Field Like (Web and App Developer)",
-        developerName: "Your Name Here Like (Muhammad Khubaib)",  
-        links: [
-            { url: 'https://www.github.com/MKQazi786', icon: 'github' },
-            { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
-            { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
-            { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
-            { url: 'https://x.com/MKQazi786', icon: 'twitter-x' },
-        ],
-        textColor: "#ffffff",
-        iconColor: "#cccccc",
-        backgroundColor: "#333333"
-});
-    });
+    
 &lt;/script&gt;
 </code></pre>
 
