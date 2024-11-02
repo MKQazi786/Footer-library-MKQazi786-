@@ -1,6 +1,6 @@
 {
   "name": "footer-library-mkqazi786-",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is my 1st library and this is for fast and customize footer",
   "main": "footer.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "author": "Muhammad Khubaib",
   "license": "ISC",
-  "readme":"README.md",
+  "readme": "README.md",
   "bugs": {
     "url": "https://github.com/MKQazi786/Footer-library-MKQazi786-/issues"
   },
