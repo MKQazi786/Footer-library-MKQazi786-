@@ -31,7 +31,6 @@
 <pre><code>
 &lt;script&gt;
 loadFooter({
-<<<<<<< HEAD
     copyrightText: "Enter Your Field Like (Web and App Developer)",
     developerName: "Your Name Here Like (Muhammad Khubaib)",  
     links: [
@@ -42,17 +41,8 @@ loadFooter({
         { url: 'https://x.com/MKQazi786', icon: 'twitter-x' },
     ]
 });
-=======
-        copyrightText: "Enter Your Field Like (Web and App Developer)",
-        developerName: "Your Name Here Like (Muhammad Khubaib)",  
-        links: [
-          { url: 'https://www.github.com/MKQazi786', icon: 'github' },
-          { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
-          { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
-          { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
-          { url: 'https://x.com/MKQazi786', icon: 'twitter-x' },
+        
     
->>>>>>> 2aaf665d6c8a1d2b5e3d434e65b501e0dc696a7b
 &lt;/script&gt;
 </code></pre>
 
