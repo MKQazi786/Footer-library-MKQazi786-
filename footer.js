@@ -17,8 +17,8 @@ style.textContent = `
     }
 
     footer {
-        position: fixed;
-        bottom: 0;
+        position: fixed !important;
+        bottom: 0 !important;
         left: 0;
         right: 0;
         min-width: 320px;
