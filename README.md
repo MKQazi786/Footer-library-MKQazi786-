@@ -10,9 +10,9 @@
 
 <h2>Installation</h2>
 <p>You can include the library via CDN:</p>
-<pre><code>&lt;script src="https://cdn.jsdelivr.net/npm/footer-library-mkqazi786-/dist/footer-library.js"&gt;&lt;/script&gt;</code></pre>
-<p>Or via UPKG:</p>
-<pre><code>&lt;script src="https://unpkg.com/footer-library-mkqazi786-/dist/footer-library.js"&gt;&lt;/script&gt;</code></pre>
+<pre><code>&lt;script src="https://cdn.jsdelivr.net/gh/MKQazi786/Footer-library-MKQazi786-/footer.js"&gt;&lt;/script&gt;</code></pre>
+<p>Or via unpkg:</p>
+<pre><code>&lt;script src="https://unpkg.com/footer-library-mkqazi786/footer.js"&gt;&lt;/script&gt;</code></pre>
 
 <h2>Usage</h2>
 <p>Add a <code>&lt;footer&gt;</code> element in your HTML where the footer should appear:</p>
