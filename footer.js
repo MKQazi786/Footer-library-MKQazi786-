@@ -20,12 +20,13 @@ const iconLink = document.createElement('link');
                 background-color: #eaeaea;
                 text-align: center;
                 font-size: 1.5rem;
-                margin-top: 1rem;
+                margin-top: 1rem !important;
                 box-shadow: -1px 2px 25px black;
                 text-shadow: 1px 0px 1px black;
                 font-weight: bolder;
                 font-family: 'Poppins', sans-serif;
-                padding: 1rem;
+                padding:1rem;
+                padding-top:1.1rem;
             }
             .icon {
                 display: flex;
