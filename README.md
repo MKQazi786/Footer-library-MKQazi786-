@@ -25,10 +25,7 @@
 
 <h2>Usage</h2>
 <h3>For CDN and unpkg</h3>
-<p>Add a <code>&lt;footer&gt;</code> element in your HTML where the footer should appear:</p>
-<pre><code>&lt;footer id="footer"&gt;&lt;/footer&gt;</code></pre>
-
-<p>Then, initialize the footer with your custom configuration options:</p>
+<p>Initialize the footer with your custom configuration options:</p>
 
 <pre><code>
 &lt;script&gt;
@@ -40,7 +37,7 @@ loadFooter({
         { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
         { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
         { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
-        { url: 'https://x.com/MKQazi786', icon: 'twitter-x' }
+        { url: 'https://x.com/MKQazi786', icon: 'twitter' }
     ],
     textColor: "#ffffff",          // Text color for footer text
     iconColor: "#cccccc",          // Color of social icons
@@ -62,7 +59,7 @@ loadFooter({
         { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
         { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
         { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
-        { url: 'https://x.com/MKQazi786', icon: 'twitter-x' }
+        { url: 'https://x.com/MKQazi786', icon: 'twitter' }
     ],
     textColor: "#ffffff",
     iconColor: "#cccccc",

@@ -13,7 +13,6 @@ const style = document.createElement('style');
 style.textContent = `
     body {
         margin: 0;
-        padding-bottom: 80px; /* Adjust this value based on your footer height */
         overflow-x: hidden; /* Prevents horizontal scroll */
     }
 
