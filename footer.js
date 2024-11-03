@@ -18,10 +18,6 @@ style.textContent = `
     }
 
     footer {
-        // position: fixed;
-        // bottom: 0;
-        // left: 0;
-        // right: 0;
         min-width: 320px;
         background-color: #eaeaea;
         text-align: center;
@@ -50,16 +46,6 @@ document.head.appendChild(style);
 
 // Footer loading function
 window.loadFooter = ({ copyrightText, developerName, links, textColor, iconColor, backgroundColor }) => {
-    if (!copyrightText || !developerName || !links) {
-        console.error('Missing parameters for loadFooter');
-        return;
-    }
-
-    // Check for existing footer and remove it
-    const existingFooter = document.querySelector('footer');
-    if (existingFooter) {
-        existingFooter.remove();
-    }
 
     // Create footer element
     let footer = document.createElement('footer');
