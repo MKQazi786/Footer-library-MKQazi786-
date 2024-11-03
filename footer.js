@@ -14,6 +14,7 @@ style.textContent = `
     body {
         margin: 0;
         padding-bottom: 80px; /* Adjust this value based on your footer height */
+        overflow-x: hidden; /* Prevents horizontal scroll */
     }
 
     footer {
@@ -31,7 +32,6 @@ style.textContent = `
         font-family: 'Poppins', sans-serif;
         padding: 1rem;
         box-sizing: border-box;
-        overflow-x: hidden; /* Prevents horizontal scroll */
     }
 
     .icon {
@@ -55,7 +55,14 @@ window.loadFooter = ({ copyrightText, developerName, links, textColor, iconColor
         return;
     }
 
-    let footer = document.createElement('footer'); // Create footer element if not exists
+    // Check for existing footer and remove it
+    const existingFooter = document.querySelector('footer');
+    if (existingFooter) {
+        existingFooter.remove();
+    }
+
+    // Create footer element
+    let footer = document.createElement('footer');
     footer.style.backgroundColor = backgroundColor;
     footer.style.color = textColor;
 
