@@ -28,21 +28,24 @@
 <p>Add a <code>&lt;footer&gt;</code> element in your HTML where the footer should appear:</p>
 <pre><code>&lt;footer id="footer"&gt;&lt;/footer&gt;</code></pre>
 
+<p>Then, initialize the footer with your custom configuration options:</p>
+
 <pre><code>
 &lt;script&gt;
 loadFooter({
     copyrightText: "Enter Your Field Like (Web and App Developer)",
-    developerName: "Your Name Here Like (Muhammad Khubaib)",  
+    developerName: "Your Name Here Like (Muhammad Khubaib)",
     links: [
         { url: 'https://www.github.com/MKQazi786', icon: 'github' },
         { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
         { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
         { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
-        { url: 'https://x.com/MKQazi786', icon: 'twitter-x' },
-    ]
+        { url: 'https://x.com/MKQazi786', icon: 'twitter-x' }
+    ],
+    textColor: "#ffffff",          // Text color for footer text
+    iconColor: "#cccccc",          // Color of social icons
+    backgroundColor: "#333333"     // Background color of footer
 });
-        
-    
 &lt;/script&gt;
 </code></pre>
 
@@ -53,19 +56,61 @@ import loadFooter from 'footer-library-mkqazi786';
 
 loadFooter({
     copyrightText: "Enter Your Field Like (Web and App Developer)",
-    developerName: "Your Name Here Like (Muhammad Khubaib)",  
+    developerName: "Your Name Here Like (Muhammad Khubaib)",
     links: [
         { url: 'https://www.github.com/MKQazi786', icon: 'github' },
         { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
         { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
         { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
-        { url: 'https://x.com/MKQazi786', icon: 'twitter-x' },
+        { url: 'https://x.com/MKQazi786', icon: 'twitter-x' }
     ],
     textColor: "#ffffff",
     iconColor: "#cccccc",
     backgroundColor: "#333333"
 });
 </code></pre>
+
+<h2>Configuration Options</h2>
+<p>Here’s a list of all available configuration options and their descriptions:</p>
+
+<table>
+  <tr>
+    <th>Option</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><strong>copyrightText</strong></td>
+    <td>Your designation or field, e.g., "Web and App Developer".</td>
+  </tr>
+  <tr>
+    <td><strong>developerName</strong></td>
+    <td>Your name, e.g., "Muhammad Khubaib".</td>
+  </tr>
+  <tr>
+    <td><strong>links</strong></td>
+    <td>An array of social media links with URLs and icon names.</td>
+  </tr>
+  <tr>
+    <td><strong>url</strong></td>
+    <td>Link to the social profile.</td>
+  </tr>
+  <tr>
+    <td><strong>icon</strong></td>
+    <td>Name of the icon, e.g., "github", "linkedin", "facebook", "youtube", "twitter-x".</td>
+  </tr>
+  <tr>
+    <td><strong>textColor</strong></td>
+    <td>Text color in hexadecimal, e.g., "#ffffff".</td>
+  </tr>
+  <tr>
+    <td><strong>iconColor</strong></td>
+    <td>Icon color in hexadecimal, e.g., "#cccccc".</td>
+  </tr>
+  <tr>
+    <td><strong>backgroundColor</strong></td>
+    <td>Background color in hexadecimal, e.g., "#333333".</td>
+  </tr>
+</table>
 
 <h2>License</h2>
 <p>Licensed under the ISC License.</p>

@@ -30,6 +30,8 @@ style.textContent = `
         font-weight: bolder;
         font-family: 'Poppins', sans-serif;
         padding: 1rem;
+        box-sizing: border-box;
+        overflow-x: hidden; /* Prevents horizontal scroll */
     }
 
     .icon {
@@ -73,6 +75,7 @@ window.loadFooter = ({ copyrightText, developerName, links, textColor, iconColor
     document.body.appendChild(footer); // Append footer to body
 };
 
+// Example Usage
 // loadFooter({
 //     copyrightText: "Enter Your Field Like (Web and App Developer)",
 //     developerName: "Your Name Here Like(Muhammad Khubaib) ",
