@@ -13,12 +13,12 @@ const style = document.createElement('style');
 style.textContent = `
     body {
         margin: 0;
-        padding-bottom: 80px;
+        padding-bottom: 80px; /* Adjust this value based on your footer height */
     }
 
     footer {
-        position: fixed !important;
-        bottom: 0 !important;
+        position: fixed;
+        bottom: 0;
         left: 0;
         right: 0;
         min-width: 320px;
@@ -73,16 +73,17 @@ window.loadFooter = ({ copyrightText, developerName, links, textColor, iconColor
     document.body.appendChild(footer); // Append footer to body
 };
 
-// Call the function to load the footer
 loadFooter({
-    copyrightText: '2024 All Rights Reserved',
-    developerName: 'Your Name',
+    copyrightText: "Enter Your Field Like (Web and App Developer)",
+    developerName: "Your Name Here Like(Muhammad Khubaib) ",
     links: [
-        { url: 'https://facebook.com', icon: 'facebook' },
-        { url: 'https://twitter.com', icon: 'twitter' },
-        { url: 'https://linkedin.com', icon: 'linkedin' },
+        { url: 'https://www.github.com/MKQazi786', icon: 'github' },
+        { url: 'https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/', icon: 'linkedin' },
+        { url: 'https://www.facebook.com/MKQazi786', icon: 'facebook' },
+        { url: 'https://www.youtube.com/@MKQazi786', icon: 'youtube' },
+        { url: 'https://x.com/MKQazi786', icon: 'twitter' }
     ],
-    textColor: '#000',
-    iconColor: '#000',
-    backgroundColor: '#eaeaea'
+    textColor: '#ffffff',
+    iconColor: '#cccccc',
+    backgroundColor: '#333333'
 });
